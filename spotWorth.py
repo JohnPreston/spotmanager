@@ -105,5 +105,5 @@ def go_for_spot(instance_type, vpc_id, max_bid):
 
 
 if __name__ == '__main__':
-    shall = go_for_spot('g2.2xlarge', 'vpc-bfe376db', 0.25)
+    shall = go_for_spot('g2.2xlarge', 'vpc-id', 0.25)
     print shall
